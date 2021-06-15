@@ -1,4 +1,4 @@
-package examples;
+package samples.com.example.sdksamples;
 
 import com.impinj.octane.GpiChangeListener;
 import com.impinj.octane.GpiEvent;

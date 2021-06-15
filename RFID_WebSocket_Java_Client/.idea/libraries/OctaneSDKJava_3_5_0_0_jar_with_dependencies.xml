@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="OctaneSDKJava-3.5.0.0-jar-with-dependencies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Impinj_SDK_Java_v3.5.0/lib/OctaneSDKJava-3.5.0.0-jar-with-dependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

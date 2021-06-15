@@ -1,4 +1,4 @@
-package examples;
+package samples.com.example.sdksamples;
 
 import com.impinj.octane.ConnectionAttemptEvent;
 import com.impinj.octane.ConnectionAttemptListener;

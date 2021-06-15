@@ -1,4 +1,4 @@
-package samples.com.example.sdksamples;
+package socket;
 
 import com.impinj.octane.ImpinjReader;
 import com.impinj.octane.Tag;

@@ -7,7 +7,7 @@
 *
 * (c) Copyright Impinj, Inc. 2016. All rights reserved.
 ******************************************************************************/
-package examples;
+package samples.com.example.sdksamples;
 
 import com.impinj.octane.*;
 

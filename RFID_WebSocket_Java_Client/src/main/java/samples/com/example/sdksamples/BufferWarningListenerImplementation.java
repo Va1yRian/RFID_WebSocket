@@ -1,4 +1,4 @@
-package examples;
+package samples.com.example.sdksamples;
 
 import com.impinj.octane.BufferWarningEvent;
 import com.impinj.octane.BufferWarningListener;

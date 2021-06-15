@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package samples.com.example.sdksamples;
+package socket;
 
 /**
  * This contains the list of possible properties that can be set for the
