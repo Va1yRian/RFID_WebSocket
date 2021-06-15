@@ -1,8 +1,17 @@
 # RFID_WebSocket
 An RFID tool using WebSocket to transfer data from Ocetane SDK (Java) to Python
-# 环境搭建
 
-项目IDE使用IntelliJ IDEA Community Edition 2020.3.1与PyCharm Community Edition 2020.3.2，IDE一样的话直接使用对应IDE打开相应文件夹即可，否则需要按一下步骤搭建环境。
+
+
+# 直接使用
+
+项目IDE使用IntelliJ IDEA Community Edition 2020.3.1与PyCharm Community Edition 2020.3.2，IDE一样的话直接使用对应IDE打开相应文件夹即可，否则需要按以下步骤搭建环境。
+
+
+
+# 从零开始
+
+### 环境搭建
 
 ### JAVA环境搭建
 
@@ -31,4 +40,16 @@ An RFID tool using WebSocket to transfer data from Ocetane SDK (Java) to Python
 4. 将SDK样例目录（Impinj_SDK_Java_v3.5.0\samples\com\example\sdksamples）下的SampleProperties与TagReportListenerImplementation文件复制到源代码目录下
 
    ![image](https://cdn.jsdelivr.net/gh/brokengun1001/Hello-World@master/RFID_WebSocket/image.4yasalna1f00.png)
+   
+   ### Python环境搭建
+   
+   进入"RFID_WebSocket\RFID_WebSocket_Python_Server"路径，执行
+   
+   ```
+   pip install -r requirements.txt
+   ```
+   
+   
+   
+   
 

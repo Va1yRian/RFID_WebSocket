@@ -17,21 +17,6 @@ public class Read_and_Send {
         //创建一个与Python服务器的ws连接
         WebSocketClient client = new WebSocketClient(new URI("ws://localhost:8888"));
         Session session = client.getSession();
-//            try (BufferedReader br = Files.newBufferedReader(Paths.get("D:\\RFID实验数据\\20210515\\6tags_1human.csv"))) {
-//                // CSV文件的分隔符
-//                String DELIMITER = ",";
-//                // 按行读取
-//                String line;
-//                while ((line = br.readLine()) != null) {
-//                    // 分割
-//                    String[] columns = line.split(DELIMITER);
-//                    // 打印行
-//                    session.getBasicRemote().sendText(String.join(", ", columns));
-//                }
-//                done = true;
-//            } catch (IOException ex) {
-//                ex.printStackTrace();
-//            }
         try {
             String hostname = "192.168.1.27";
 
