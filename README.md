@@ -48,8 +48,4 @@ An RFID tool using WebSocket to transfer data from Ocetane SDK (Java) to Python
    ```
    pip install -r requirements.txt
    ```
-   
-   
-   
-   
 
