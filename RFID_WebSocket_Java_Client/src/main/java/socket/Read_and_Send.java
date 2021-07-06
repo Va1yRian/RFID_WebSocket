@@ -15,8 +15,8 @@ public class Read_and_Send {
     static int sum = 0;
     public static void main(String[] args) throws URISyntaxException, InterruptedException {
         //创建一个与Python服务器的ws连接
-        WebSocketClient client = new WebSocketClient(new URI("ws://localhost:8888"));
-        Session session = client.getSession();
+        WebSocketClient client = new WebSocketClient(new URI("ws://localhost:8001"));
+        final Session session = client.getSession();
         try {
             String hostname = "192.168.1.27";
 
@@ -131,6 +131,7 @@ public class Read_and_Send {
 
             System.out.println("Stopping  " + hostname);
             reader.stop();
+            session.close();
 
             System.out.println("Disconnecting from " + hostname);
             reader.disconnect();
